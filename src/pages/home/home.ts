@@ -12,7 +12,7 @@ export class HomePage implements OnInit {
 
   }
   ngOnInit() {
-    this.performManualUpdate();
+    //go
   }
 
   async performManualUpdate() {
@@ -23,6 +23,11 @@ export class HomePage implements OnInit {
       window.alert("yessssssssa!!!");
       
     }
+   }
+
+   track() {
+    this.performManualUpdate();
+
    }
 
 }
